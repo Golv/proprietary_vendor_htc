@@ -154,6 +154,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "GestureHandler",
+	owner: "htc",
+	apk: "proprietary/priv-app/GestureHandler/GestureHandler.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "ims",
 	owner: "htc",
 	apk: "proprietary/priv-app/ims/ims.apk",
