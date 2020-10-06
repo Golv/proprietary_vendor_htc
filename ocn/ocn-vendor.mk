@@ -1156,7 +1156,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     CNEService \
     WfdService \
-    GestureHandler \
     qcrilmsgtunnel \
     QtiTelephonyService \
     ims \

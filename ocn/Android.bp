@@ -154,18 +154,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "GestureHandler",
-	owner: "htc",
-	apk: "proprietary/priv-app/GestureHandler/GestureHandler.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-
-android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "htc",
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
